@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grigoriy Semyonov CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.12.0/styles/atom-one-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.12.0/highlight.min.js"></script>
+    <script>document.addEventListener('DOMContentLoaded', () => { hljs.highlightAll(); });</script>
+  </head>
+  <body>
+
+    <header class="header">
+      <div class="student-name">
+        <span class="user-tag">grgrsm@rsschool:~$</span>
+      </div>
+      <nav class="nav-menu">
+        <ul class="nav-list">
+          <li><a href="#about">/about</a></li>
+          <li><a href="#contacts">/contacts</a></li>
+          <li><a href="#skills">/skills</a></li>
+          <li><a href="#code">/code</a></li>
+          <li><a href="#experience">/projects</a></li>
+          <li><a href="#education">/education</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="terminal-window">
+      <div class="window-header">
+        <div class="window-buttons">
+          <a href="https://github.com/grgrsm" target="_blank" aria-label="GitHub Profile" class="btn btn-close"></a>
+          <a href="https://github.com/grgrsm" target="_blank" aria-label="GitHub Profile" class="btn btn-minimize"></a>
+          <a href="https://github.com/grgrsm" target="_blank" aria-label="GitHub Profile" class="btn btn-maximize"></a>
+        </div>
+        <div class="title">bash</div>
+      </div>
+
+      <div class="body">
+        
+        <section class="hero-section">
+          <img src="./public/me.jpg" alt="Grigoriy Semyonov Photo" class="avatar-img">
+          <div class="hero-text">
+            <h1>Grigoriy Semyonov</h1>
+            <p class="subtitle">Junior Software Engineer</p>
+          </div>
+        </section>
+
+        <section id="about" class="cv-section">
+          <h2>Introduction</h2>
+          <p>Aspired and inspired Software Engineer passionate about backend systems, modern web frameworks, and Linux architecture.</p>
+        </section>
+
+        <section id="contacts" class="cv-section">
+          <h2>Contact Information</h2>
+          <ul class="info-list">
+            <li><strong>Email:</strong> grigorisem07@gmail.com</li>
+            <li><strong>Discord:</strong> xclnt</li>
+            <li><strong>GitHub:</strong> <a href="https://github.com/grgrsm" target="_blank">github.com/grgrsm</a></li>
+            <li><strong>Location:</strong> Pavlodar, Kazakhstan</li>
+          </ul>
+        </section>
+
+        <section id="skills" class="cv-section">
+          <h2>Technical Skills</h2>
+          <ul class="skills-list">
+            <li>React.js (JavaScript / TypeScript)</li>
+            <li>NestJS (TypeScript)</li>
+            <li>Linux &amp; Bash Scripting</li>
+            <li>Docker</li>
+          </ul>
+        </section>
+
+        <section id="code" class="cv-section">
+          <h2>Code Example (Codewars Solution)</h2>
+          <p>Problem: Find the Odd Int.</p>
+          <div class="code-wrapper">
+            <pre>
+              <code class="language-python">
+                      def find_it(seq):
+                        for x in seq:
+                            if seq.count(x) % 2:
+                                return x
+                </code>
+            </pre>
+          </div>
+        </section>
+
+        <section id="experience" class="cv-section">
+          <h2>Projects</h2>
+          <ul class="projects-list">
+            <li>
+              <a href="https://mobile-imperial.kz" target="_blank"><strong>Imperial Mobile Web Application</strong></a>
+              <br>
+              Enterprise project: A fully responsive bonus system for client engagement.
+            </li>
+            <li>
+              <a href="https://github.com/grgrsm/Python-Gym" target="_blank"><strong>Django Gym System</strong></a>
+              <br>
+              Full-stack system featuring authentication, authorization, and database management.
+            </li>
+            <li>
+              <a href="https://github.com/grgrsm/Full-stack-e-shop" target="_blank"><strong>Full-Stack E-Shop</strong></a>
+              <br>
+              E-commerce platform built with React.js and NestJS, containerized using Docker.
+            </li>
+          </ul>
+        </section>
+
+        <section id="education" class="cv-section">
+          <h2>Education &amp; Languages</h2>
+          <ul class="info-list">
+            <li><strong>University:</strong> Innovative University of Eurasia (InEU)</li>
+            <li><strong>Courses:</strong> RS School JS/TS Course, Harvard CS50 Web, Kaggle ML, EPAM Cloud DevOps</li>
+            <li><strong>English Level:</strong> C1 (Advanced)</li>
+            <li><strong>Chinese Level:</strong> B1 (Pre-Intermediate)</li>
+          </ul>
+        </section>
+
+      </div>
+    </main>
+
+    <footer class="system-footer">
+      <div class="footer-content">
+        <p>&copy; 2026 <a href="https://github.com/grgrsm" target="_blank">grgrsm</a></p>
+        <a href="https://rs.school/courses/short-track" target="_blank">
+          <img src="https://raw.githubusercontent.com/rolling-scopes-school/tasks/b97be56aead8d10c06ef3473e0db9abaa662abf4/tasks/cv/rs-school-logo.svg" alt="RS School Logo" class="rs-logo">
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
